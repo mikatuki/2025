@@ -1,0 +1,128 @@
+body {
+  background-color: rgb(1, 1, 0);
+  color: rgb(231, 233, 234);
+}
+.g {
+  color: rgb(113, 118, 123);
+  font-size: small;
+}
+header {
+  height: 54px;
+  padding: 15px 5% 0 5%;
+  h2 {
+    font-weight: bold;
+    font-size: large;
+  }
+}
+.main_head {
+  margin-top: 15px;
+}
+.main_headImg {
+  height: 150px;
+  background-color: aquamarine;
+  position: relative;
+}
+
+.main_headBox_icon {
+  position: absolute;
+  left: 5%;
+  bottom: -30px;
+  img {
+    max-width: 100%;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: 1px solid black;
+    background-color: white;
+    object-fit: cover;
+  }
+}
+
+.main_headNamearea {
+  padding-left: 5%;
+}
+.main_headBox {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  margin-top: 15px;
+  padding-right: 5%;
+}
+.main_heafBox_btn {
+  border: solid 2px white;
+  border-radius: 30px;
+  background-color: white;
+  padding: 1% 3%;
+  color: black;
+  font-weight: 600;
+}
+.main_headNamearea_name {
+  font-weight: bold;
+  font-size: large;
+}
+
+.main_headText {
+  padding: 15px 5%;
+  line-height: 1.4;
+}
+
+.main_headFB {
+  padding: 0 5%;
+}
+.main_headFB_num {
+  font-weight: 600;
+  font-size: 15px;
+}
+.main_headFB_text {
+  margin-right: 3%;
+  margin-left: -0.5%;
+}
+
+/* ツイート部分 */
+.main_tweet {
+  margin: 15px 5%;
+  padding: 10px 0;
+  border-top: 1px solid rgb(113, 118, 123);
+  display: flex;
+  justify-content: center;
+}
+
+.maint_tweetTop_icon {
+  height: 55px;
+  margin-right: 10px;
+  img {
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 50%;
+    background-color: white;
+    object-fit: cover;
+  }
+}
+.main_tweetBox {
+  width: 70%;
+}
+.maint_tweetBox_top {
+  display: flex;
+  align-items: end;
+}
+.maint_tweetBox_top_name {
+  font-weight: 600;
+  margin-right: 5px;
+  font-size: 15px;
+}
+.main_tweetBox_text {
+  margin-top: 7px;
+  font-size: 15px;
+  line-height: 1.3;
+}
+/* ツイートの画像設定 */
+.main_tweetBox_img {
+  margin-top: 7px;
+  img {
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 5%;
+    background-color: white;
+    object-fit: cover;
+  }
+}
