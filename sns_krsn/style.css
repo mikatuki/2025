@@ -49,13 +49,25 @@ header {
   margin-top: 15px;
   padding-right: 5%;
 }
+
 .main_heafBox_btn {
-  border: solid 2px white;
-  border-radius: 30px;
-  background-color: white;
-  padding: 1% 3%;
-  color: black;
-  font-weight: 600;
+  input:checked + label {
+    background-color: #d0104c;
+    border-color: #d0104c;
+    color: #fff;
+  }
+  input {
+    opacity: 0;
+  }
+  label {
+    border: solid 2px white;
+    border-radius: 30px;
+    background-color: white;
+    color: black;
+    font-weight: 600;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
 }
 .main_headNamearea_name {
   font-weight: bold;
