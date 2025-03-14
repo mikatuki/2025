@@ -125,11 +125,15 @@ header {
 .maint_tweetBox_top {
   display: flex;
   align-items: end;
+  flex-wrap: wrap;
 }
 .maint_tweetBox_top_name {
   font-weight: 600;
   margin-right: 5px;
   font-size: 15px;
+}
+.maint_tweetBox_top_id {
+  margin-right: 10px;
 }
 .main_tweetBox_text {
   margin-top: 7px;
