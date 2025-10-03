@@ -1,0 +1,75 @@
+/* ベース全体のスタイル */
+body {
+  font-family: 'Hiragino Sans', 'Noto Sans JP', sans-serif;
+  background: #f2f3f7;
+  color: #2c2c2c;
+  line-height: 1.8;
+  margin: 0;
+  padding: 0;
+}
+
+/* セクション全体の共通設定 */
+div {
+  max-width: 900px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* テキスト部分 */
+div p {
+  margin-bottom: 1.5rem;
+  font-size: 1rem;
+}
+
+div:nth-of-type(2) {
+  border-left: 6px solid #aaa;
+  background: #f9f9fb;
+}
+
+/* 見出しっぽく */
+div:nth-of-type(2) p:first-child {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+/* リンク */
+a {
+  color: #4b5fe3;
+  text-decoration: none;
+  font-weight: 600;
+  border-bottom: 1px dashed #4b5fe3;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* ゲーム画面 */
+iframe {
+  display: block;
+  border: solid;
+  max-width: 100%;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 16 / 9;
+}
+
+/* レスポンシブ対応 */
+@media screen and (max-width: 768px) {
+  div {
+    padding: 1.5rem;
+  }
+
+  div p {
+    font-size: 0.95rem;
+  }
+
+  iframe {
+    width: 100%;
+    aspect-ratio: 16 / 9;
+  }
+}
