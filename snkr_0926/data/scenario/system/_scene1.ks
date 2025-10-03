@@ -1,4 +1,4 @@
-[preload  storage="./data/bgimage/first_room.jpg"  ]
+[preload  storage="./data/bgimage/first_room.jpg" ]
 [preload  storage="./data/bgimage/black_grade.jpg"  ]
 [preload  storage="./data/bgimage/green.jpg"  ]
 [preload  storage="./data/fgimage/default/nazo01_09_.png"  ]
