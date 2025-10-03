@@ -33,7 +33,7 @@
 ;defaultMovieVolume=100
 ;defaultBgmSlotNum=1
 ;defaultSoundSlotNum=3
-;configVisible=true
+;configVisible=false
 ;configLeft=-1
 ;configTop=-1
 ;configThumbnail=true
