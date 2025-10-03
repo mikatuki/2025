@@ -1,12 +1,12 @@
 **[_tb_system_call storage=system/_title_screen.ks]
-
+[hidemenubutton]
 
 ;=============================
 ; タイトル画面
 ;==============================
 
 
-[hidemenubutton]
+
 
 [tb_clear_images]
 

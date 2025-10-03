@@ -4,7 +4,6 @@
 ; コンフィグ モード　画面作成
 
 ;=========================================
-	[hidemenubutton]
 
 	[layopt layer="message0" visible="false"]
 	[clearfix]
@@ -17,7 +16,7 @@
 		$("#bgmovie").remove();
 	[endscript]
 
-	
+	[hidemenubutton]
 
 	[iscript]
 
