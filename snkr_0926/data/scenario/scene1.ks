@@ -1,4 +1,4 @@
-[_tb_system_call storage=system/_scene1.ks]
+**[_tb_system_call storage=system/_scene1.ks]
 
 [cm  ]
 [bg  storage="first_room.jpg"  time="1000"  ]
