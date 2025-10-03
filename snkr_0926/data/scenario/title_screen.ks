@@ -34,7 +34,7 @@
 *start
 
 [tb_ptext_hide  time="1000"  ]
-[showmenubutton]
+**[showmenubutton]
 
 [cm  ]
 [tb_keyconfig  flag="1"  ]
